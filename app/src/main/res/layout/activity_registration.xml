@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_24"
+    android:layout_margin="@dimen/dp_12">
+
+    <TextView
+        style="@style/MyTextViewForTitle"
+        android:text="Cadastro de despesas" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtDesc"
+            style="@style/MyEditTextFormTextSimple"
+            android:hint="Descrição"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtValor"
+            style="@style/MyEditTextFormNumberSimple"
+            android:hint="Valor"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtData"
+            style="@style/MyEditTextFormTextSimple"
+            android:hint="Data"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtTipo"
+            style="@style/MyEditTextFormTextSimple"
+            android:hint="Tipo"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/MyButtonForm"
+        android:id="@+id/btnCadastrarDespesa"
+        android:text="Cadastrar"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="MyTextViewForTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="MyEditTextFormTextSimple">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">50</item>
+    </style>
+
+    <style name="MyEditTextFormNumberSimple">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">50</item>
+    </style>
+
+    <style name="MyButtonForm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100sp</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
